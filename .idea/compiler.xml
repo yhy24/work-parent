@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="work-8081" />
+        <module name="alibaba-sentinel-service8401" />
+        <module name="work-provider" />
+        <module name="seta-order-2001" />
+        <module name="work-eurk" />
+        <module name="work-gateway" />
+        <module name="nacos-config-client3377" />
+        <module name="work-8002" />
+        <module name="alibaba-redis-server" />
+        <module name="alibaba-nacos-order" />
+        <module name="alibaba-nacos-order83" />
+        <module name="work-cloudStream-8803" />
+        <module name="work-cloudStream-8802" />
+        <module name="work-cloudStream-8801" />
+        <module name="alibaba-nacos-pay" />
+        <module name="work-es" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+</project>

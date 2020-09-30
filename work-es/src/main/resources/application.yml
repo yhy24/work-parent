@@ -1,0 +1,13 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /es
+#spring:
+#  data:
+#    elasticsearch:
+#      cluster-name: docker-cluster
+#      cluster-nodes: 192.168.6.129:9300
+#      repositories:
+#        enabled: false
+elasticsearch.host: 192.168.6.133
+elasticsearch.port: 9200

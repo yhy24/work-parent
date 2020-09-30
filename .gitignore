@@ -1,0 +1,14 @@
+# Project exclude paths
+/alibaba-nacos-order/target/
+/alibaba-nacos-order83/target/
+/alibaba-nacos-pay/target/
+/alibaba-redis-server/target/
+/alibaba-sentinel-service8401/target/
+/nacos-config-client3377/target/
+/seta-order-2001/target/
+/work-8081/target/
+/work-cloudStream-8801/target/
+/work-es/target/
+/work-eurk/target/
+/work-gateway/target/
+/work-provider/target/

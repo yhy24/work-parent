@@ -1,0 +1,16 @@
+#启动端口
+server:
+  port: 8001
+  servlet:
+    context-path: /work
+#项目名称
+spring:
+  application:
+    name: provider-work
+#eureka配置
+eureka:
+  instance:
+    prefer-ip-address: true #使用服务的id地址注册
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

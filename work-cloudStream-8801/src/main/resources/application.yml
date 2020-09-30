@@ -1,0 +1,36 @@
+server:
+  port: 8801
+
+
+spring:
+  application:
+    name: cloud-stream-provider
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: 192.168.6.131
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        output:
+          destination: studentExchange
+          content-type: application/json
+          binder: defaultRabbit
+
+
+#eureka配置
+eureka:
+  instance:
+    prefer-ip-address: true #使用服务的id地址注册
+    hostname: cloud-gateway-service
+  client:
+    service-url:
+      register-with-eureka: true
+      defaultZone: http://localhost:8761/eureka/
+
